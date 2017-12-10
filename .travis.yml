@@ -7,3 +7,9 @@ install:
 
 script:
   - make test
+
+after_success:
+  - make docker_build
+
+services:
+  - docker
