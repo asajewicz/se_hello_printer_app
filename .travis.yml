@@ -1,4 +1,7 @@
 language: python
+services:
+  - docker
+
 python:
   - "2.7"
 
@@ -10,6 +13,4 @@ script:
 
 after_success:
   - make docker_build
-
-services:
-  - docker
+  - make docker_push
