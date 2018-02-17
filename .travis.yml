@@ -14,3 +14,8 @@ script:
 after_success:
   - make docker_build
   - make docker_push
+
+deploy:
+  provider: heroku
+  app: radiant-escarpment-95515
+  api_key: ${HEROKU_API_KEY}
