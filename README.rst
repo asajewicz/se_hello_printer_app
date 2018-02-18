@@ -136,3 +136,4 @@ Konfiguracja na świeżej maszynie wirtualnej
 18. Dodaj obrazek i link z travis i statuscake do dokumentacji (sekcja Integracja z Travis, Monitoring StatusCake)
 
 .. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
+     :target: https://www.statuscake.com
