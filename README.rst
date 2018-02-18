@@ -1,7 +1,7 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
@@ -15,7 +15,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Uruchamianie applikacji:
 
-  :: 
+  ::
 
     # jako zwykły program
     python main.py
@@ -44,6 +44,18 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     ...
 
+- Monitoring StatusCake:
+
+  ::
+
+    Utworzono nowy test na stronie StatusCake uzywając URL z Heroku.com
+
+.. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
+    :target: https://www.statuscake.com
+
+    Jeśli plik się nazywa README.md to można wkleić cały link:
+    <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1" /></a>
+
 
 Pomocnicze
 ==========
@@ -56,10 +68,10 @@ Pomocnicze
     pip install -U pip
     pip install virtualenv
     pip install virtualenvwrapper
-  
+
 - Instalacja docker-a:
 
-  :: 
+  ::
 
     yum remove docker \
         docker-common \
@@ -111,7 +123,7 @@ Konfiguracja na świeżej maszynie wirtualnej
 	make test
 12. (Opcjonalne) Dodaj do Makefile (w terminalu: atom Makefile):
 	test_smoke:
-		curl -I --fail 127.0.0.1:5000 
+		curl -I --fail 127.0.0.1:5000
 13. Konfiguracja dockera:
 	na root (su) uruchom komendę make docker_build (w drugim oknie terminalu)
 	na root make docker_run (w pierwszym oknie terminalu)
@@ -119,3 +131,6 @@ Konfiguracja na świeżej maszynie wirtualnej
 	usunięcie procesu (po zastopowaniu): docker remove nazwa_dockera
 	sprawdź status: docker ps lub docker ps -a
 14. listowanie: ls
+15. zaciągnięcie na maszynę: git pull
+16. Uruchomienie maszyny workon wsb-simple-flask-app
+17. Ustaw monitoring na stronie StatusCake (nawy test) używając URL zaciągnięty z Heroku.com
