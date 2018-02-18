@@ -134,3 +134,5 @@ Konfiguracja na świeżej maszynie wirtualnej
 16. Uruchomienie maszyny workon wsb-simple-flask-app
 17. Ustaw monitoring na stronie StatusCake (nowy test) używając URL zaciągnięty z Heroku.com
 18. Dodaj obrazek i link z travis i statuscake do dokumentacji (sekcja Integracja z Travis, Monitoring StatusCake)
+
+.. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
