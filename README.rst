@@ -40,9 +40,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  ::
-
-    ...
+.. image:: https://travis-ci.org/asajewicz/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/asajewicz/se_hello_printer_app
 
 - Monitoring StatusCake. Utworzono nowy test na stronie StatusCake uzywając URL z Heroku.com
 
