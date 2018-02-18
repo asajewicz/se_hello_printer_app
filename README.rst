@@ -42,10 +42,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 .. image:: https://travis-ci.org/asajewicz/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/asajewicz/se_hello_printer_app
 
+
 - Monitoring StatusCake. Utworzono nowy test na stronie StatusCake uzywając URL z Heroku.com
 
 .. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
-    :target: https://www.statuscake.com
+     :target: https://www.statuscake.com
 
   Jeśli plik się nazywa README.md to można wkleić cały link:
 
