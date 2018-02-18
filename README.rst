@@ -44,16 +44,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     ...
 
-- Monitoring StatusCake:
-
-  ::
-
-    Utworzono nowy test na stronie StatusCake uzywając URL z Heroku.com
+- Monitoring StatusCake. Utworzono nowy test na stronie StatusCake uzywając URL z Heroku.com
 
 .. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
     :target: https://www.statuscake.com
 
-    Jeśli plik się nazywa README.md to można wkleić cały link:
+  Jeśli plik się nazywa README.md to można wkleić cały link:
+
+  ::
+
     <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1" /></a>
 
 
