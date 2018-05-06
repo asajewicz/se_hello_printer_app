@@ -145,5 +145,4 @@ sprawdź status: docker ps lub docker ps -a
 23. Uruchom aplikację python main.py
 24. Uruchom test api w pierwszym oknie terminalu: python test-api/check_api.py
 25. Po poprawkach w kodzie czasem trzeba wyłączyć aplikacje i ponownie uruchomić python main.py (okno drugie terminalu)
-26. 
-
+26. W pliku .travis.yml dodaj komendę: sleep; make test_api w script

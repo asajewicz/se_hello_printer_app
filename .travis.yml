@@ -9,10 +9,13 @@ install:
   - make deps
 
 script:
+  - make lint
   - make test
+  - make docker_build
+  - make docker_run
+  - sleep 3; make test_api
 
 after_success:
-  - make docker_build
   - make docker_push
 
 deploy:
