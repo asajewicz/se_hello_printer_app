@@ -8,7 +8,7 @@ lint:
 	flake8 hello_world test
 
 test:
-	PYTHONPATH=. py.test
+	PYTHONPATH=. py.test  -v -m "not uitest"
 
 test_smoke:
 	curl -I --fail 127.0.0.1:5000
@@ -20,7 +20,10 @@ test_xunit:
 	PYTHONPATH=. py.test -s --cov=. --junit-xml=test_results.xml
 
 test_api:
-	python test-api/check_api.py
+	python test_api/check_api.py
+
+test_ui:
+	python test_ui/test_ui.py
 
 run:
 	python main.py
