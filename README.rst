@@ -138,7 +138,12 @@ sprawdź status: docker ps lub docker ps -a
 
 21. Test coverage
 20. Jenkins - fork, git clone, plik README.rst, instalowanie
-
-
 .. image:: https://app.statuscake.com/button/index.php?Track=paJYD1Rj5f&Days=1&Design=1
      :target: https://www.statuscake.com
+
+22. W drugim oknie terminalu włącz wyrtualne środowisko workon wsb-simple-flask-app
+23. Uruchom aplikację python main.py
+24. Uruchom test api w pierwszym oknie terminalu: python test-api/check_api.py
+25. Po poprawkach w kodzie czasem trzeba wyłączyć aplikacje i ponownie uruchomić python main.py (okno drugie terminalu)
+26. 
+
