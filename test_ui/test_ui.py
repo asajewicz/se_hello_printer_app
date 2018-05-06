@@ -16,3 +16,8 @@ class TestFormater(unittest.TestCase):
         powitanie = driver.find_element_by_id('powitanie')
         print(powitanie.text)
         self.assertEqual(powitanie.text, "Witaj swiecie!!!")
+
+    def google(self, driver):
+        link_str = find_element_by_partial_link_text("imiona")
+        print(link_str)
+        link_str.click()
