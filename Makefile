@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: test test_ui test_api
 
 deps:
 	pip install -r requirements.txt; \
@@ -23,7 +23,7 @@ test_api:
 	python test_api/check_api.py
 
 test_ui:
-	python test_ui/test_ui.py
+	py.test test_ui/test_ui.py
 
 run:
 	python main.py
