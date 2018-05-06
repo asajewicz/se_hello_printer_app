@@ -8,7 +8,7 @@ lint:
 	flake8 hello_world test
 
 test:
-	PYTHONPATH=. py.test  -v -m "not uitest"
+	PYTHONPATH=. py.test #-v -m "not uitest"
 
 test_smoke:
 	curl -I --fail 127.0.0.1:5000

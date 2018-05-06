@@ -10,7 +10,6 @@ class TestFormater(unittest.TestCase):
         driver.get("http://127.0.0.1:5000/ui")
         driver.find_element_by_id("powitanie")
         self.valid_hello(driver)
-        time.sleep(2)
         driver.quit()
 
     def valid_hello(self, driver):
