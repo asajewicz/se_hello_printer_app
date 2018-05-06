@@ -23,7 +23,7 @@ test_api:
 	python test_api/check_api.py
 
 test_ui:
-	py.test test_ui/test_ui.py
+	py.test -s --verbose test_ui/test_ui.py
 
 run:
 	python main.py
